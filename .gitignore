@@ -59,3 +59,26 @@ typings/
 
 # next.js build output
 .next
+
+# OS X
+.DS_Store
+
+# SDK
+sdk_tmp/
+email_creds.json
+bots_creds.json
+slack_creds.json
+.*grip.json
+._redsift.json
+
+# Sift server
+server/tests
+server/site-packages/
+
+# Node
+node_modules/
+
+# Python
+*.pyc
+
+# Go
