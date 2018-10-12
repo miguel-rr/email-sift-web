@@ -1,0 +1,38 @@
+{
+  "name": "email-sift-web2",
+  "version": "0.0.1",
+  "description": "Miguel Rodríguez&#x27;s Email Sift Web",
+  "scripts": {
+    "build": "gulp build",
+    "build:css": "NODE_ENV=production node ./scripts/build-css"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/runtime": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@redsift/ui-rs-core": "^0.9.1",
+    "@redsift/sift-sdk-web": "^0.14.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.6.1",
+    "cssnano": "^4.1.4",
+    "eslint": "^5.6.1",
+    "eslint-plugin-react": "^7.5.1",
+    "gulp": "^4.0.0",
+    "i18next": "^11.9.0",
+    "i18next-browser-languagedetector": "^2.1.0",
+    "i18next-xhr-backend": "^1.5.0",
+    "postcss": "^7.0.5",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-import": "^12.0.0",
+    "postcss-load-config": "^2.0.0",
+    "postcss-loader": "^3.0.0",
+    "webpack": "^4.20.2"
+  },
+  "dependencies": {
+  }
+}

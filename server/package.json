@@ -1,0 +1,9 @@
+{
+  "name": "email-sift-web2",
+  "display-name": "Email Sift Web2",
+  "description": "Miguel Rodríguez&#x27;s Email Sift Web",
+  "author": "",
+  "version": "1.0.0",
+  "#": "Please use 'redsift npm' instead of system 'npm' ",
+  "dependencies": {}
+}
